@@ -1,0 +1,15 @@
+project/
+├── main.go
+└── calculator.go
+both files have package main
+
+so here main.go can import any function from calculator.go even declared with small letter
+ex sum()
+
+project/
+  calculator/
+    └── calculator.go
+└── main.go
+
+here main.go can import any functions from calculator/calculator.go but they should be declared with capital letter
+ex Sum()

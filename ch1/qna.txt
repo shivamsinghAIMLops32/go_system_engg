@@ -1,0 +1,16 @@
+Why does go run still need compilation?
+go needs compilation for converting the program into machine code so it can get executed.
+
+What's the difference between an executable file and a running process?
+excutable file is an set of instructions that the operating system can execute, while a running process is the actual execution of those instructions.
+
+Why does Go need a runtime if it already compiles to machine code?
+Go needs a runtime to manage memory,stack,thread,go routines,hea memory,garbage collection.
+
+
+What did file myprogram show you?
+file myprogram shows you the output of the program.
+
+
+What do you think happens if you execute ./myprogram twice simultaneously?
+it will execute the program twice simultaneously, creating two running processes.
