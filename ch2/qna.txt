@@ -13,3 +13,7 @@ project/
 
 here main.go can import any functions from calculator/calculator.go but they should be declared with capital letter
 ex Sum()
+
+
+packages are directories that contain Go source files and a go.mod file is used to define the package and its dependencies
+a module is a collection of packages that are versioned together
